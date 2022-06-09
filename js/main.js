@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["M a u r o  R o t h"],
+      strings: ["Soy","M a u r o ~ R o t h", "Bienvenidos"],
       typeSpeed: 100,
       loop: true,
     });
