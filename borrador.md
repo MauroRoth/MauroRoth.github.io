@@ -1,21 +1,15 @@
-## Tercero Primera
+# FÍSICA Y QUÍMICA
 
-## Tercero Segunda
 
-## Cuarto Primera
+## Física I
 
-## Cuarto Segunda
+## Física II
 
-## Quinto Primera
+## Física III
 
-## Quinto Segunda
+## Física General
 
-## Quinto Tercera
+## Bases Físicas y Químicas
 
-## Quinto Cuarta
 
-## Quinto Sexta
 
-## Primero Enfermería
-
-This is [an example](https://forms.gle/M58GrB6moTr93AKe8/ "Title") inline link.
