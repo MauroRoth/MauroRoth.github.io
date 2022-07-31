@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html>
    <head>
+     <meta charset="utf-8">
       <title>Mauro Roth - Profesor</title>
+      <link rel="stylesheet" href="./main.css">
       <link type="text/css" rel="stylesheet" href="main.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+      <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        VANTA.BIRDS({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 100.00,
+          minWidth: 100.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color1: 0xf2f2f2,
+          backgroundAlpha:0.0,
+          quantity: 3.00,
+        })
+      })
+    </script>
    </head>
    <body>
+     <div id="vanta"></div>
       <header>
-         <h1 id="física-y-química">FÍSICA Y QUÍMICA</h1>
-         <h6 id="by-mauro-roth">By Mauro Roth</h6>
+        <img src="./images/favicon.png">
+         <h1 id="@maurogroth">@maurogroth</h1>
       </header>
       <main>
-              <h2 id="física-i">Física I</h2>
-               <h2 id="física-ii">Física II</h2>
-               <h2 id="física-iii">Física III</h2>
-               <h2 id="física-general">Física General</h2>
-               <h2 id="bases-físicas-y-químicas">Bases Físicas y Químicas</h2>
+        <ul>
+          <li>
+            <a href="./borrador.md">
+              BASES FÍSICAS Y QUÍMICAS
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              FÍSICA GENERAL
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              FÍSICA I
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              FÍSICA II
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              FÍSICA III
+            </a>
+          </li>
+        </ul>
       </main>
       <footer>
-         <h6 id="by-mauro-roth">By Mauro Roth</h6>
+         <h6 id="by-mauro-roth">by MAURO ROTH</h6>
+         <h6 id="by-mauro-roth">Profesor en Química y Física</h6>
       </footer>
    </body>
 </html>
