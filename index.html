@@ -4,38 +4,10 @@
      <meta charset="utf-8">
       <title>Mauro Roth - Profesor</title>
       <meta name="viewport" content="width=device-width" initial-scale=1 />
-      <link rel="stylesheet" href="./main.css">
       <link type="text/css" rel="stylesheet" href="main.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-      <script>
-      window.addEventListener('DOMContentLoaded', () => {
-        VANTA.BIRDS({
-          el: "#vanta",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 100.00,
-          minWidth: 100.00,
-          scale: 1.00,
-          scaleMobile: 1.00,
-          color1: 0xf2f2f2,
-          color2: 0xf2f2f2,
-          backgroundAlpha:0.0,
-          quantity: 3.00,
-          cohesion: 5.00,
-          separation: 100.00,
-          wingSpan: 40.00,
-          alignment: 77.00,
-        })
-        setTimeout(() => {
-          const main = document.querySelector('main');
-          main.style.opacity = 1;
-          main.style.filter = 'blur(0px)'
-        }, 1000)
-
-      })
-    </script>
+      <script src="./main.js"></script>
    </head>
    <body>
      <div id="vanta"></div>
@@ -47,12 +19,12 @@
 
         <ul>
           <li>
-            <a href="./borrador.html">
+            <a href="./bases_fisicas_quimicas.html">
               BASES FÍSICAS Y QUÍMICAS - 1ro Enfermería
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="./fisica_general.html">
               FÍSICA GENERAL - 5to 3ra, 5to 4ta y 5to 6ta
             </a>
           </li>
@@ -62,12 +34,12 @@
             </a>
           </li>
           <li>
-            <a href="#">
-              FÍSICA II - 4to 1ra y 4to 2da
+            <a href="./fisica_2.html">
+              FÍSICA II - 4to ra y 4to 2da
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="./fisica_3.html">
               FÍSICA III - 5to 1ra y 5to 2da
             </a>
           </li>
