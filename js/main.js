@@ -5,3 +5,4 @@ window.addEventListener('DOMContentLoaded', () => {
     main.style.filter = 'blur(0px)'
   }, 1000)
 })
+
