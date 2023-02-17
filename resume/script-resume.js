@@ -9,14 +9,18 @@ function convertidorMdHtml(fileRuta){
     return html;    
 }
 document.getElementById('contenido')
-   .innerHTML = convertidorMdHtml('resume-dev.md');
+   .innerHTML = convertidorMdHtml('resume-doc.md');
 
 document.getElementById('desarrollo').addEventListener('click', function(){
    document.getElementById('contenido')
-   .innerHTML = convertidorMdHtml('resume-dev.md');
+         .innerHTML = convertidorMdHtml('resume-dev.md');
+   document.getElementById('body').style.background = "black";
+   document.getElementById('body').style.color = "#fdfd96";
 })
 document.getElementById('docencia').addEventListener('click', function(){
-    document.getElementById('contenido')
-    .innerHTML = convertidorMdHtml('resume-doc.md');
+   document.getElementById('contenido')
+         .innerHTML = convertidorMdHtml('resume-doc.md');
+   document.getElementById('body').style.backgroundColor = "white";
+   document.getElementById('body').style.color = "black";
  })
 

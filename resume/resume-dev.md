@@ -14,5 +14,5 @@ Mauro Gonzalo Roth
     + **Introducción a Huayra** (Educar S.E. -Plataforma “Juana Manso”);
     + **Usando ELE** (Moodle y Herramientas de Autor).
 
-### Experiencia Laboral
+
 

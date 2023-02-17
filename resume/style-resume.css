@@ -1,10 +1,7 @@
-/* header{
-  margin-top: 1em;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}  */
+body{
+  background-color: white;
+  color: black;
+}
 header>nav{
   border: 1px solid rgb(27, 31, 19);
   background-color: darkslategray;
@@ -13,13 +10,19 @@ header>nav>ul{
   text-align: right;
   margin: 5px;
 }
-
 header>nav>ul>li{
   border: 1px solid black;
   list-style: none;
   display: inline;
 }
-header>img{
+
+a{
+  text-decoration: none;
+}
+header>div{
+  text-align: center;
+}
+header>div>img{
   width: 8em;
   height: 8em;
   border-radius: 20%;
@@ -27,8 +30,6 @@ header>img{
   box-shadow: rgb(28 32 93 / 24%) 0% 2% 8% 0%;
   margin-top: 2em;
 }
-
-
 
 main>div{
     text-align:justify;
