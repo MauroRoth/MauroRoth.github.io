@@ -1,6 +1,6 @@
 Mauro Gonzalo Roth 
 ===
-## Desarrollo
+#### *desarrollor de software*
 ### Formación Académica
 - 2020 - **Técnico Superior en Desarrollo de Software.**
     + *Instituto de Educación Superior - MECCyT - Provincia del Chaco.*
@@ -13,6 +13,8 @@ Mauro Gonzalo Roth
 - **ELE** Plataforma Educativa Chaqueña – *Gobierno de la Provincia del Chaco*:
     + **Introducción a Huayra** (Educar S.E. -Plataforma “Juana Manso”);
     + **Usando ELE** (Moodle y Herramientas de Autor).
+- **SeProgramar**- *Trayecto Formativo INTI en el marco de **Argentina Programa 4.0.***
+- *Programa **Codo a Codo 4.0** - Big Data (Ciencia de Datos).*
 
 
 

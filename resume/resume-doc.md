@@ -1,6 +1,6 @@
 Mauro Gonzalo Roth
 ===
-## Docencia
+#### *profesor en química y física*
 ### Formación Académica
 - 2018 - **Especialización Docente de Nivel Superior en Enseñanza de las Ciencias Naturales en la Escuela Secundaria.**
     + *Instituto Nacional de Formación Docente - Ministerio de Educación - Presidencia de la Nación - Ciudad Autónoma de Buenos Aires.*
