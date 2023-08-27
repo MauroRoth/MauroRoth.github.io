@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mauro Roth</title>
+
+    <style>
+        .flex{display: flex;}
+        .flex-direction-column{flex-direction: column;}
+        .felx-direction-row{flex-direction: row;}
+        .align-items-center{align-items: center;}
+        .justify-content-center{justify-content: center;}
+        .w15em{width: 15em;}
+        .border-radius-100{border-radius: 100%;}
+        .border-radius-10{border-radius: 10%;}
+        .padding-2{padding: 2%;}
+        .border-black-solid{border: solid black 1px;}
+        .w100{width: 100%;}
+        .w80{width: 80%;}
+        .w10em{width: 10em;}
+        .grid{display: grid;}
+        .grid-tempalte{grid-template-columns: 1fr 1fr;}
+        .grid-gap{grid-gap: 20px}
+      
+    </style>
 </head>
-<body>
-    <img src="img/7309678.jpg" alt="avatar-de-prueba">
+<body class="flex flex-direction-column align-items-center">
+    <header class="flex flex-direction-column align-items-center justify-content-center">
+        <nav class="flex justify-content-center w100">
+            <div class="padding-2">lorem1</div>
+            <div class="padding-2">lorem1</div>
+            <div class="padding-2">lorem1</div>
+            <div class="padding-2">lorem1</div>
+            <div class="padding-2">lorem1</div>
+        </nav>
+        <img class="w15em border-radius-100" src="img/apel_aja.jpg" alt="avatar-de-prueba">
+        <h1>Mauro Roth</h1>
+    </header>
+    <main id="main" class="w80 grid grid-tempalte grid-gap">
+        
+    </main>
+    <footer>soy el footer</footer>
+    <script>
+        main = document.getElementById('main')
+        fetch('https://rickandmortyapi.com/api/character')
+            .then(data => data.json())
+            .then(response =>{
+                console.log(response.results),
+                ul = document.createElement('ul')
+                response.results.forEach(element => {
+                    div = document.createElement('div'),
+                    div.setAttribute('class', 'border-black-solid')
+                    img = document.createElement('img'),
+                    img.setAttribute('src', element.image),
+                    img.setAttribute('class', 'w10em padding-2 border-radius-10')
+                    div.appendChild(img)
+                    main.appendChild(div)
+                    });
+                }
+            )
+    </script>
 </body>
 </html>
