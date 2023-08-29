@@ -23,6 +23,9 @@
         .grid{display: grid;}
         .grid-template{grid-template-columns: 1fr 1fr;}
         .grid-gap{grid-gap: 20px}
+        h2 { font-variant: small-caps }
+        .lsn{list-style: none;}
+        .tdn{text-decoration: none;}
       
     </style>
 </head>
@@ -32,30 +35,55 @@
             <div class="padding-2"><a href="index.html">home</a></div>
             <div class="padding-2"><a href="rickandmorty.html">r&m</a></div>
         </nav>
-        <div class="flex felx-direction-row justify-content-space-b align-items-center w100">
-            <h1 class="padding-2">Mauro Roth</h1>
-            <p class="padding-2">Profesor en Química y Física<br>
-                                    Técnico en Desarrollo de Software</p>
+        <div class="flex flex-direction-column justify-content-space-b align-items-center w100">
+            <h1>Mauro Roth</h1>
+            <p>Profesor en Química y Física<br>
+                Técnico en Desarrollo de Software</p>
             <img class="w8em border-radius-100" src="img/apel_aja.jpg" alt="avatar-de-prueba">
         </div>
     </header>
-    <main id="main" class="w80 flex flex-direction-column">
+    <main id="main" class="w80 flex flex-direction-column align-items-center">
         <section>
-            <h2>tercero primera y segunda</h2>
+            <h2>Tercero Primera y Tercero Segunda</h2>
+            <ul class="lsn">
+                <li>
+                    <a class="tdn" href="https://www.google.com/">
+                        <h3>Trabajos Prácticos 1 y 2.</h3>
+                    </a>
+                <li>
+            </ul>
         </section>
         <section>
-            <h2>cuarto primera y segunda</h2>
+            <h2>Cuarto Primera y Cuarto Segunda</h2>
         </section>
         <section>
-            <h2>quinto primera y segunda</h2>
+            <h2>Quinto Primera y Quinto Segunda</h2>
+            <ul class="lsn">
+                <li>
+                    <a class="tdn" href="https://www.google.com/">
+                        <h4>Trabajos Prácticos 1 y 2</h4>
+                    </a>
+                </li>
+            </ul>
         </section>
         <section>
-            <h2>quinto tercera, cuarta y sexta</h2>
+            <h2>Quinto Tercera, Quinto Cuarta y Quinto Sexta</h2>
         </section>
-        
-        
+        <section>
+            <h2>Bibliografía:</h2>
+            <ul>
+                <li>
+                    <a href="http://www.bnm.me.gov.ar/giga1/documentos/EL006506.pdf"><h3>Física - Plan Fines</h3></a>
+                    (Este es el libro en formato pdf que usamos habitualmente.)
+                </li>
+                <li>
+                    <a href="http://www.bnm.me.gov.ar/giga1/documentos/EL002693.pdf"><h4>Física - Nivel Secundario para Adultos</h4></a>
+                    (Una versión similar de la anterior bibliografía.)
+                </li>
+            </ul>
+        </section>
     </main>
-    <footer>soy el footer</footer>
+    <footer>© todos los derechos reservados</footer>
     <script>
     </script>
 </body>
