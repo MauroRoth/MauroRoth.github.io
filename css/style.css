@@ -1,0 +1,52 @@
+.material-icons-outlined {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.flex{display: flex;}
+.flex-direction-column{flex-direction: column;}
+.felx-direction-row{flex-direction: row;}
+.align-items-center{align-items: center;}
+.justify-content-center{justify-content: center;}
+.justify-content-space-b{justify-content: space-between;}
+.w15em{width: 15em;}
+.border-radius-100{border-radius: 100%;}
+.border-radius-10{border-radius: 10%;}
+.padding-2{padding: 2%;}
+.border-black-solid{border: solid red 2px;}
+.w100{width: 100%;}
+.w80{width: 80%;}
+.w8em{width: 8em;}
+.grid{display: grid;}
+.grid-template{grid-template-columns: 1fr 1fr;}
+.grid-gap{grid-gap: 20px}
+h2 {
+    font-variant: small-caps;
+    padding-left: 1em;
+}
+.lsn{list-style: none;}
+.tdn{text-decoration: none;}
+.mg0{margin: 0;}
+.fw{font-weight: bold;}
+strong{text-shadow: 1px 1px 2px red, 0 0 1em green, 0 0 0.2em yellowgreen;;}
+      

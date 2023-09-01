@@ -4,43 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mauro Roth</title>
-
-    <style>
-        .flex{display: flex;}
-        .flex-direction-column{flex-direction: column;}
-        .felx-direction-row{flex-direction: row;}
-        .align-items-center{align-items: center;}
-        .justify-content-center{justify-content: center;}
-        .justify-content-space-b{justify-content: space-between;}
-        .w15em{width: 15em;}
-        .border-radius-100{border-radius: 100%;}
-        .border-radius-10{border-radius: 10%;}
-        .padding-2{padding: 2%;}
-        .border-black-solid{border: solid red 2px;}
-        .w100{width: 100%;}
-        .w80{width: 80%;}
-        .w8em{width: 8em;}
-        .grid{display: grid;}
-        .grid-template{grid-template-columns: 1fr 1fr;}
-        .grid-gap{grid-gap: 20px}
-        h2 {
-            font-variant: small-caps;
-            padding-left: 1em;
-        }
-        .lsn{list-style: none;}
-        .tdn{text-decoration: none;}
-        .mg0{margin: 0;}
-        .fw{font-weight: bold;}
-        strong{text-shadow: 1px 1px 2px red, 0 0 1em green, 0 0 0.2em yellowgreen;;}
-      
-    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="flex flex-direction-column align-items-center">
     <header class="flex flex-direction-column align-items-center justify-content-center w80">
-        <nav class="flex justify-content-center w100">
+        < class="flex justify-content-center w100">
             <div class="padding-2"><a href="index.html">home</a></div>
-            <div class="padding-2"><a href="rickandmorty.html">r&m</a></div>
-        </nav>
+            <div class="padding-2"><a href="rickandmorty/rickandmorty.html">r&m</a></div>
+        </>
         <div class="flex flex-direction-column justify-content-space-b align-items-center w100">
             <h1>Prof. <strong>Mauro Roth</strong></h1>
             <!-- <p class="mg0 fw">Profesor en Química y Física</p>
@@ -81,20 +53,34 @@
             <h2>Quinto Primera y Quinto Segunda</h2>
             <ul class="lsn">
                 <li>
-                    <h3>Trabajos Prácticos 1 y 2</h3>
-                        <a class="padding-2" href="https://docs.google.com/document/d/1yDsSYXcCbkmAKctQBqHtLf9eFrh-BcnGhzBpCkNCYCc/edit?usp=sharing">
-                            DOCS
-                        </a>
-                        <a class="padding-2" href="https://drive.google.com/file/d/1PJDSYq79J2aYZHR7t00Fl-uF7ezTOVRE/view?usp=sharing">
-                            PDF
-                        </a>        
-                    <h3>Trabajo Práctico 3.</h3>
-                        <a class="padding-2" href="https://docs.google.com/document/d/1tuYNFhjmL5EaoIqybVQwmqmma-Esd9ymclIgD_uHLt8/edit?usp=sharing">
-                            DOCS
-                        </a>
-                        <a class="padding-2" href="https://drive.google.com/file/d/1a40OASI_tOhdyYmfQCRyx7Bfs31ffEVf/view?usp=sharing">
-                            PDF
-                        </a>        
+                    <div class="trabajos-prácticos">
+                        <h3>Trabajos Prácticos 1 y 2</h3>
+                            <a class="padding-2" href="https://docs.google.com/document/d/1yDsSYXcCbkmAKctQBqHtLf9eFrh-BcnGhzBpCkNCYCc/edit?usp=sharing">
+                                <span class="material-icons-outlined">
+                                    text_snippet
+                                </span>
+                                Google Document
+                            </a>
+                            <a class="padding-2" href="https://drive.google.com/file/d/1PJDSYq79J2aYZHR7t00Fl-uF7ezTOVRE/view?usp=sharing">
+                                <span class="material-icons-outlined">
+                                    picture_as_pdf
+                                </span>
+                                Archivo PDF
+                            </a>        
+                        <h3>Trabajo Práctico 3.</h3>
+                            <a class="padding-2" href="https://docs.google.com/document/d/1tuYNFhjmL5EaoIqybVQwmqmma-Esd9ymclIgD_uHLt8/edit?usp=sharing">
+                                <span class="material-icons-outlined">
+                                    text_snippet
+                                </span>
+                                Google Document
+                            </a>
+                            <a class="padding-2" href="https://drive.google.com/file/d/1a40OASI_tOhdyYmfQCRyx7Bfs31ffEVf/view?usp=sharing"> 
+                                <span class="material-icons-outlined">
+                                    picture_as_pdf
+                                </span>
+                                Archivo PDF
+                            </a>        
+                    </div>
                 </li>
             </ul>
         </section>
@@ -126,7 +112,6 @@
         </section>
     </main>
     <footer>© todos los derechos reservados</footer>
-    <script>
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
