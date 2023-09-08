@@ -23,6 +23,15 @@
   font-feature-settings: 'liga';
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
 .flex{display: flex;}
 .flex-direction-column{flex-direction: column;}
 .felx-direction-row{flex-direction: row;}
